@@ -63,29 +63,124 @@ body {
   margin: auto;
 }
 
+body {
+      font: open sans;
+}
+
 header {
         height: 60px;
-        background-color:blue;
+        background-color: #033048;
 
 }
 
 h1  {
-      font-size: 25px;
+      font-size: 28px;
       font-weight: bold;
       color: white;
       float: left;
       padding: 10px 0 10px 50px;
 }
 
-nav {
+img{
+    width: 100%;
+}
 
+
+/*.nav-item {
+
+        font-size: 15px;
+        display: inline-block;
+        width: 60px;
+        height: 40px;
+        float: right;
+}*/
+
+.nav-item a {
+  color: yellow;
+  text-decoration: none;
 }
 
 .nav-item {
+
+        font-size: 18px;
+        display: inline-block;
         float: right;
-        color: yellow;
+        padding-right: 50px;
+        padding-top: 20px;
 
 }
+
+section{
+      float: left;
+      width: 70%;
+}
+
+.bigsection a {
+    float: right;
+    font-size: 24px;
+    font-style: semi-bold;
+    text-decoration: none;
+    color: black;
+    /*padding-bottom: 30px;*/
+}
+
+
+.bigsection {
+        /*width: 70%;
+        float:left;*/
+        /*padding: 20px 250px 80px 0;*/
+        /*margin-bottom: 60px*/
+        padding-top: 50px;
+        width: 100%;
+        border-bottom: 1px solid black;
+        /*margin-right: 250px;*/
+}
+
+.h2 {
+    font-size: 40px;
+    font-weight: semi-bold;
+}
+
+.muchtext {
+  font-size: 24px;
+  font-weight: lighter;
+  text-align:justify;
+  padding-bottom: 50px;
+}
+
+
+aside {
+      width: 30%;
+      /*height: 400px;*/
+      float: right;
+      padding-left: 25px;
+      padding-top: 50px;
+}
+
+.h3 {
+      font-size: 32px;
+      font-weight: extra-bold;
+      padding-bottom: 15px;
+}
+
+.category a {
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 24px;
+        color: black;
+}
+
+.midaside {
+    padding-top: 50px;
+    padding-right: 55px;
+}
+
+.learn{
+      text-decoration: none;
+      font-weight: bold;
+      color:inherit;
+}
+
 footer {
 
 }
