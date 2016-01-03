@@ -61,6 +61,7 @@ body {
 .container {
   width: 960px;
   margin: auto;
+
 }
 
 body {
@@ -120,7 +121,7 @@ section{
     font-size: 24px;
     font-style: semi-bold;
     text-decoration: none;
-    color: black;
+    color: #033048;
     /*padding-bottom: 30px;*/
 }
 
@@ -132,29 +133,54 @@ section{
         /*margin-bottom: 60px*/
         padding-top: 50px;
         width: 100%;
-        border-bottom: 1px solid black;
         /*margin-right: 250px;*/
+        padding-bottom: 50px;
 }
+
+hr  {
+    background-color: #033048;
+    height: 1px;
+    border: none;
+}
+
+#secondHr {
+  margin-bottom: 100px;
+}
+
+/*section{
+      padding-bottom: 100px;
+}*/
 
 .h2 {
     font-size: 40px;
     font-weight: semi-bold;
+    color: #033048;
 }
 
 .muchtext {
   font-size: 24px;
   font-weight: lighter;
   text-align:justify;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
+}
+
+a {
+    color: #033048:
 }
 
 
 aside {
       width: 30%;
       /*height: 400px;*/
-      float: right;
+      float: left;
       padding-left: 25px;
-      padding-top: 50px;
+      /*padding-top: 50px;*/
+      color: #033048;
+}
+
+.topaside {
+
+      margin-top: -175px;
 }
 
 .h3 {
@@ -189,6 +215,7 @@ aside {
 .yellow {
       height: 50px;
       background-color: yellow;
+
 }
 
 .black  {
@@ -197,7 +224,7 @@ aside {
 }
 
 .footer {
-        width: 15px;
+        width: 12px;
         height:20px;
         display: inline-block;
         margin-left: auto;
@@ -209,11 +236,18 @@ aside {
 }
 
 button  {
-      background-color: blue;
+      background-color: #033048;
+      color: white;
       height: 25px;
-      width: 200px;
       display: block;
-      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 5px;
+      border-color: #030488;
+
 }
 
   .button {
@@ -221,8 +255,9 @@ button  {
     color: white;
     font-style: bold;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 125px;
+    height: 30px;
+
   }
 
 
@@ -232,6 +267,18 @@ button  {
           font-size: 22px;
           padding-top: 30px;
           padding-bottom: 25px;
+}
+
+.footerdiv  {
+      text-align: center;
+}
+
+#twitter  {
+        margin-right: 10px;
+}
+
+#fb {
+        margin-left: 10px;
 }
 
 footer {
