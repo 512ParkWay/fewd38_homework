@@ -175,10 +175,63 @@ aside {
     padding-right: 55px;
 }
 
-.learn{
+.bottomaside{
+      padding-top: 40px;
+}
+
+.learn  {
       text-decoration: none;
-      font-weight: bold;
+      font-weight: semi-bold;
+      font-size: 22px;
       color:inherit;
+}
+
+.yellow {
+      height: 50px;
+      background-color: yellow;
+}
+
+.black  {
+    height: 150px;
+    background-color: black;
+}
+
+.footer {
+        width: 15px;
+        height:20px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.footerimage{
+        display: inline-block;
+}
+
+button  {
+      background-color: blue;
+      height: 25px;
+      width: 200px;
+      display: block;
+      margin: 0;
+}
+
+  .button {
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.footerheading  {
+          color: yellow;
+          text-align: center;
+          font-size: 22px;
+          padding-top: 30px;
+          padding-bottom: 25px;
 }
 
 footer {
