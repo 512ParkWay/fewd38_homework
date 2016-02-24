@@ -1,0 +1,93 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.placeholder {
+  background-color: rgba(255,0,0,.5);
+  height: 140px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.placeholder.small {
+  height: 60px;
+}
+
+header,
+footer {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.burger {
+  float: right;
+  padding: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger .bun {
+  height: 2px;
+  width: 30px;
+  background: #999;
+  margin-bottom: 6px;
+}
+.burger .bun:last-child {
+  margin-bottom: 0;
+}
+
+.col-2-3 {
+  width: 66.6%;
+  float: left;
+  border-width: 2px;
+
+}
+
+.col-1-4  {
+  width: 25%;
+  float: left;
+
+}
+.col-100  {
+  float: left;
+    width: 100%;
+}
+
+.col-1-3  {
+  float: left;
+  width: 33.3%;
+}
+
+footer{
+  clear: left;
+}
+
+/*small width css here: */
+@media only screen and (max-width: 600px)  {
+  .burger {
+    display: block;
+  }
+
+
+  .col-2-3,
+  .col-1-4,
+  .col-100,
+  .col-1-3 {
+    width: 100%;
+  }
+
+  nav  {
+    display: none;
+  }
+
+
+}
